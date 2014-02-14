@@ -1,0 +1,120 @@
+	.container {
+		max-width: 1020px;
+	}
+	.navbar-brand {
+		padding: 0px !important;
+	}
+	.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+		margin-left: 305px !important;
+	}
+	.navbar-default {
+		background-color: #fff;
+		border-color: #e7e7e7;
+		height: 90px !important;
+	}
+	.navbar-nav.navbar-right:last-child {
+		margin-right: 300px;
+		margin-top: 15px;
+		color:#096;
+	}
+	.navbar-default .navbar-nav>li>a {
+		color: #16AF09;
+	}
+	.container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse {
+		margin-right: 120px !important;
+		margin-left: 290px !important;
+	}
+	
+	html, body {
+		height: 100% !important;
+		background-color: #efecea !important;
+	}
+	.row {
+		margin-left: -15px;
+		margin-right: -15px;
+		margin-top: 5px;
+		font-size:12px;
+	}
+	.jumbotron {
+		background-color: #FFF;
+	}
+	
+	.container .jumbotron {
+		border-radius: 0px;
+		font-size:10px;
+		color:#999;
+	}
+	.jumbotron p {
+		margin-right: 310px;
+		font-style:strong;
+	}
+	.form-control {
+		width: 60%;
+		height: 28px;
+		background-color: #efecea;
+		border-radius: 0px;
+		font-size:10px;
+	}
+	.form-horizontal .form-group {
+		margin-left: -15px;
+		margin-right: -15px;
+	}	
+		.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+		position: relative;
+		min-height: 1px;
+		padding-left: 0px;
+		padding-right: 15px;
+		}	
+		.col-md-8 {
+			width: 66%;
+			
+		}		
+		.col-md-4 {
+			padding-top:80px;
+		}
+		.col-md-2 {
+			padding-top:50px;
+			width:10%;
+		}
+		.col-md-2a {
+			padding-top:15px;
+			width:90%;
+		}
+       .dotted {
+		   border-right:1px dashed #000;
+		   height:250px;
+		   margin-top: -105px;
+		}
+		.imageholder{
+		padding-top:100px;
+		}
+		.horizontaldotted {
+		   border:1px dashed #000;
+		   margin-bottom:9px;
+		   margin-left: 95px;
+		}
+		.loginwithtext		{
+			font-size:12px;
+			font-family:Arial, Helvetica, sans-serif;
+			color:#000;
+			margin-left: -28%;
+		}
+	.vertical_dotted_line{
+		border-left: 1px dotted #black;
+		height: 100px;
+	}
+	.footer {
+		width: 70%;
+		padding-top: 19px;
+		color: #777;
+		border-top: 1px solid #000;
+		margin-left: 14%;
+	}
+	
+	.footer p {
+		font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-size: 9px;
+		color:#000;
+	}
+	
+	
