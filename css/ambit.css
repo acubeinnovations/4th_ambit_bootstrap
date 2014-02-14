@@ -71,7 +71,27 @@ font-weight:normal;
 font-size:12px;
 color:#666;
 }
+.form-control {
+	border-radius: 0px;
+	background-color:#efecea;
+}
+.DD {
+	width: 28px;
+	margin-top: -27px;
+	margin-left: 80px;
+}
 
+.MM {
+	width: 28px;
+	margin-top: -34px;
+	margin-left: 120px;
+}
+
+.YY {
+	width: 28px;
+	margin-top: -34px;
+	margin-left: 160px;
+}
 
 
 
@@ -118,6 +138,36 @@ color:#666;
 .right-dotted{
 	border-right:1px dashed #000;
 }
+
+.col-md-2a {
+	padding-top: 15px;
+	width: 90%;
+	margin-top: 40px;
+}
+.imageholder{
+    margin-left: -45px;
+/*	padding-top:100px;
+*/}
+input[type="radio"] {
+  width: 20px;
+  height: 13px;
+  color: #fff;
+  font: 12px/21px arial,sans-serif;
+  background: url(http://csscheckbox.com/checkboxes/u/csscheckbox_12885bd05c74d1c9ff2f67e796378c16.png) no-repeat;
+  margin-bottom:13px;
+}
+.col-md-12a {
+width: 100%;
+margin-left: 45px;
+}
+
+.holder{
+	margin-top: -29px;
+    margin-left: 350px;
+}
+
+
+	
 
 
 
