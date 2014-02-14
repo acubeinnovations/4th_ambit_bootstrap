@@ -1,4 +1,18 @@
-	
+	 .navbar-brand{
+		width: 300px;
+	 }
+      #logo {
+	   height: 150px;
+	   width: 100%;
+	   text-decoration: none;
+	   float: left;
+	   visibility: visible;
+	   left: 1px;
+	   background-image: url(../images/Scenario1-1.png);
+	   
+	   background-repeat: no-repeat;
+	   border:1px 0px 1px 1px solid #dd4d31 !important;
+     }
 	.container {
 		max-width: 1020px;
 	}
@@ -71,16 +85,24 @@
 					width: 66%;
 					
 				}	
-	} 
+	}
 	.form-horizontal .control-label, .form-horizontal .radio, .form-horizontal .checkbox, .form-horizontal .radio-inline, .form-horizontal .checkbox-inline {  margin-top: 0;
 					margin-bottom: 0;
 					padding-top: 7px;
 				    display: inline-block;
 					margin-bottom: 5px;
 					font-weight: 700;
-	}			   
+					
+	}		
+	label {
+		display: inline-block;
+		margin-bottom: 5px;
+		font-weight: 700;
+	}
+	
+		   
 			
-	@media screen and (min-width: 768px), screen and (min-height: 768px) {	
+	@media screen and (min-width: 1000px), screen and (min-height: 768px) {	
 			.col-md-4 {
 				padding-top:80px;
 				
@@ -127,8 +149,7 @@
 		border-top: 1px solid #000;
 		margin-left: 14%;
 	}
-	
-	.footer p {
+ 	.footer p {
 		font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 		font-size: 9px;
 		color:#000;
