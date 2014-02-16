@@ -41,6 +41,7 @@ body {
   /* Set the fixed height of the footer here */
   height: 60px;
   background-color: #efecea;
+  
 }
 
 
@@ -76,28 +77,44 @@ color:#666;
 	background-color:#efecea;
 }
 .DD {
-	width: 28px;
-	margin-top: -27px;
-	margin-left: 80px;
+	width: 50px;margin-left: 15px
+	/*margin-top: -27px;
+	;*/
 }
 
 .MM {
-	width: 28px;
+	width: 50px; 
 	margin-top: -34px;
 	margin-left: 120px;
 }
 
 .YY {
-	width: 28px;
+	width: 70px;
 	margin-top: -34px;
-	margin-left: 160px;
+	margin-left: 220px;
 }
 
+.holder{
+	margin-left:15px;
+	margin-top:12px;
+}
+
+.col-md-4 {
+width: 30%;
+margin-left: 24px;
+margin-top: 7px;
 
 
-
-
-
+}	
+.row {
+margin-left: -15px;
+margin-right: -15px;
+line-height: 2.3;
+}
+.btn{
+	background-color:#0C6;
+	color:#FFF;
+	}
 
 
 
@@ -162,16 +179,61 @@ margin-left: 45px;
 }
 
 .holder{
-	margin-top: -29px;
+	margin-top: -35px;
     margin-left: 350px;
 }
 
+.col-md-4a {
 
-	
+width: 2%;
+margin-left: -27px;
+margin-top: 110px;
+
+}
+
+.col-md-4 {
+width: 30%;
+margin-left: 24px;
+margin-top: 43px;
 
 
+}	
 
-
-
+.DD {
+	width: 50px;
+	margin-top: -30px;
+	margin-left: 440px;
+}
+.MM {
+	width: 50px;
+	margin-top: -34px;
+	margin-left: 500px;
+}
+.YY {
+	width: 65px;
+	margin-top: -34px;
+	margin-left: 560px;
+}
+.row {
+margin-left: -15px;
+margin-right: -15px;
+line-height: 2.3;
+}
+.termsconditions{
+margin-left:132px;
+}
+.agreebutton{
+margin-left:680px;
+margin-top:-40px;
+}
+.btn{
+	background-color:#0C6;
+	color:#FFF;
+	}
+.fontstyle1{
+font-size:14px;
+font-style:italic;
+font-weight:700;
+}
 
 }
