@@ -100,8 +100,8 @@ color:#666;
 }
 
 .col-md-4 {
-width: 30%;
-margin-left: 24px;
+width: 80%;
+margin-left: 28%;
 margin-top: 7px;
 
 
@@ -192,6 +192,7 @@ color:#999;
 
 
    */
+   
 
 @media (min-width: 768px) {
 
