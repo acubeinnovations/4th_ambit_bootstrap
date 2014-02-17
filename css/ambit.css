@@ -247,9 +247,65 @@ margin-top: 110px;
 	position: relative;
 	padding: 20px;
 	height: 400px;
+	margin-top: -50px;
 }
 .modal-content {
-margin-top: 150px;
+	margin-top: 80px;
+	border-radius:0px;
+}
+.modal-header {
+    padding: 32px;
+	border-bottom: 0px 
+	
+	
 }
 
+.mheaderunderline{
+	border-style:dashed;
+    border-width:0px;
+	width:80%;
+	padding-top:5px;
+	padding-bottom:5px;
 }
+.modal-dialog {
+width: 900px;
+}
+hr { 
+height: 0; 
+border-bottom: 2px dotted #000; 
+width:90%;
+margin-right:85px;
+
+}
+p {
+margin: 0 0 10px;
+margin-left: 10px;
+}
+
+.windowholder1{
+margin-top:25px;
+padding: 0px 0px 0px 10px;}
+.windowholder2{
+	
+	padding: 0px 0px 0px 265px;
+	margin-top: -194px;
+}
+.windowholder3{
+	
+	padding: 0px 0px 0px 520px;
+	margin-top: -209px;
+}
+.profiletext{
+	font:Verdana, Geneva, sans-serif;
+	font-size:10px;
+	color:#999;
+	text-width:5px;
+	}
+p.ex
+{
+width:110px;
+font-size:10px;
+color:#999;
+}	
+}
+
