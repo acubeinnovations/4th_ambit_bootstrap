@@ -54,6 +54,7 @@ body > .container {
 }
 .container .text-muted {
   margin: 20px 0;
+	
 }
 
 #footer > .container {
@@ -192,10 +193,322 @@ color:#999;
 
 
    */
-   
+@media (min-width: 768px) and (max-width: 990px) {
+.img-slide{
+width:100% !important;
+height:auto;
+}
+.bottom-dotted{
+	border-bottom:1px dashed #000;
+}
+.right-dotted{
+	border-right:none !important;
+}
+.col-md-4a {
 
-@media (min-width: 768px) {
+width: 2%;
 
+margin-top: -37px !important;
+
+}
+.col-md-4 {
+	width: 30%;
+	
+	margin-top: 43px !important;
+
+
+}
+.agreebutton{
+	margin-left:540px !important;
+	margin-top:-40px !important;
+}
+
+input[type="radio"] {
+  width: 20px;
+  height: 13px;
+  color: #fff;
+  font: 12px/21px arial,sans-serif;
+  background: url(http://csscheckbox.com/checkboxes/u/csscheckbox_12885bd05c74d1c9ff2f67e796378c16.png) no-repeat;
+  margin-bottom:13px;
+}
+.DD {
+	width: 50px;
+	margin-top:-30px;
+	margin-left: 430px;
+}
+.MM {
+	width: 50px;
+	
+	margin-left: 490px;
+}
+.YY {
+	width: 65px;
+	
+	margin-left: 550px;
+}
+.holder{
+	
+	margin-top: -30px;
+    margin-left:330px;
+}
+.termsconditions{
+	margin-left:132px !important;
+}
+	
+} 
+
+
+@media (max-width: 767px) { 
+.bottom-dotted{
+	border-bottom:1px dashed #000;
+}
+.right-dotted{
+	border-right:none !important;
+}
+.col-md-4a {
+
+width: 2%;
+
+margin-top: -37px !important;
+
+}
+.col-md-4 {
+	width: 30%;
+	
+	margin-top: 44px !important;
+
+
+}
+.agreebutton{
+	margin-left:517px !important;
+	margin-top:-40px !important;
+}
+
+input[type="radio"] {
+  width: 20px;
+  height: 13px;
+  color: #fff;
+  font: 12px/21px arial,sans-serif;
+  background: url(http://csscheckbox.com/checkboxes/u/csscheckbox_12885bd05c74d1c9ff2f67e796378c16.png) no-repeat;
+  margin-bottom:13px;
+}	
+.DD {
+	width: 50px;
+	margin-top:-35px;
+	margin-left: 410px;
+}
+.MM {
+	width: 50px;
+	
+	margin-left: 470px;
+}
+.YY {
+	width: 65px;
+	
+	margin-left: 530px;
+}
+.holder{
+	margin-top: -25px;
+    margin-left:300px;
+}
+
+
+}
+@media (max-width: 767px) { 
+.img-slide{
+width:100% !important;
+height:auto;
+}
+}
+@media (max-width: 609px) { 
+.img-slide{
+width:100% !important;
+height:auto;
+}
+.bottom-dotted{
+	border-bottom:1px dashed #000;
+}
+.right-dotted{
+	border-right:none !important;
+}
+.col-md-4a {
+
+width: 2%;
+
+margin-top: -37px !important;
+
+}
+.col-md-4 {
+	width: 30%;
+	margin-top: 44px !important;
+
+
+}
+.agreebutton{
+	margin-left:398px !important;
+	margin-top:-40px !important;
+}
+
+input[type="radio"] {
+  width: 20px;
+  height: 13px;
+  color: #fff;
+  font: 12px/21px arial,sans-serif;
+  background: url(http://csscheckbox.com/checkboxes/u/csscheckbox_12885bd05c74d1c9ff2f67e796378c16.png) no-repeat;
+  margin-bottom:13px;
+}	
+.DD {
+	width: 50px;
+	margin-top:-30px;
+	margin-left: 290px;
+}
+.MM {
+	width: 50px;
+	
+	margin-left: 350px;
+}
+.YY {
+	width: 65px;
+	
+	margin-left: 410px;
+}
+.holder{
+	margin-top: -30px;
+    margin-left:200px;
+}
+
+
+
+
+}
+@media (max-width: 481px) {
+.bottom-dotted{
+	border-bottom:1px dashed #000;
+}
+.right-dotted{
+	border-right:none !important;
+}
+.col-md-4a {
+
+width: 2%;
+
+margin-top: -37px !important;
+
+}
+.col-md-4 {
+	width: 30%;
+	
+	margin-top: 44px !important;
+
+
+}
+.agreebutton{
+	margin-left:308px !important;
+	margin-top:-40px !important;
+}
+
+input[type="radio"] {
+  width: 20px;
+  height: 13px;
+  color: #fff;
+  font: 12px/21px arial,sans-serif;
+  background: url(http://csscheckbox.com/checkboxes/u/csscheckbox_12885bd05c74d1c9ff2f67e796378c16.png) no-repeat;
+  margin-bottom:13px;
+}	
+.DD {
+	width: 50px;
+	margin-top:0px;
+	margin-left: 200px;
+}
+.MM {
+	width: 50px;
+	
+	margin-left: 260px;
+}
+.YY {
+	width: 65px;
+	
+	margin-left: 320px;
+}
+.holder{
+	margin-top: -45px;
+    margin-left:200px;
+}
+
+
+
+
+}
+@media (max-width: 393px) {
+.bottom-dotted{
+	border-bottom:1px dashed #000;
+}
+.right-dotted{
+	border-right:none !important;
+}
+.col-md-4a {
+
+width: 2%;
+
+margin-top: -37px !important;
+
+}
+.col-md-4 {
+	width: 30%;
+	
+	margin-top: 44px !important;
+
+
+}
+.agreebutton{
+	margin-left:228px !important;
+	margin-top:-40px !important;
+}
+
+input[type="radio"] {
+  width: 20px;
+  height: 13px;
+  color: #fff;
+  font: 12px/21px arial,sans-serif;
+  background: url(http://csscheckbox.com/checkboxes/u/csscheckbox_12885bd05c74d1c9ff2f67e796378c16.png) no-repeat;
+  margin-bottom:13px;
+}	
+.DD {
+	width: 50px;
+	margin-top:-20px;
+	margin-left: 120px;
+}
+.MM {
+	width: 50px;
+	
+	margin-left: 180px;
+}
+.YY {
+	width: 65px;
+	
+	margin-left: 240px;
+}
+.holder{
+	margin-top: -10px;
+    margin-left:15px;
+}
+
+.container .text-muted {
+	font-size:10px;
+  margin: 20px 30px;
+}
+.img-slide{
+width:100% !important;
+height:auto;
+}
+
+}
+
+@media (min-width: 991px) {
+.hor-line{
+display:none;
+
+}
 #logo {
 	height: 80px;
 	width: 273px;
@@ -298,7 +611,7 @@ margin-top: 110px;
 	margin-left:132px;
 }
 .agreebutton{
-	margin-left:680px;
+	margin-left:550px;
 	margin-top:-40px;
 }
 .btn{

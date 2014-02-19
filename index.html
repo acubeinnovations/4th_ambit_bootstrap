@@ -85,13 +85,13 @@
 					<div class="form-group">
 					<label for="inputPassword3" class="col-sm-2 control-label">Last Name</label>
 					<div class="col-sm-10">
-					<input type="password" class="form-control" id="inputPassword3" placeholder="Last Name">
+					<input type="text" class="form-control" id="inputPassword3" placeholder="Last Name">
 					</div>
 					</div>
 					<div class="form-group">
 					<label for="inputPassword3" class="col-sm-2 control-label">Email</label>
 					<div class="col-sm-10">
-					<input type="password" class="form-control" id="inputPassword3" placeholder="Email">
+					<input type="text" class="form-control" id="inputPassword3" placeholder="Email">
 					</div>
 					</div>
 					<div class="form-group">
@@ -113,30 +113,19 @@
 					    </label>
                   
                   <div class="holder">
-								 Date of Birth </div>
+								<label class="control-label"> Date of Birth</label></div>
                                   
 									 <div class="DD">
-									   <input type="password" class="form-control" id="inputPassword3" placeholder="DD">
+									   <input type="text" class="form-control" id="inputPassword3" placeholder="DD">
 									 </div>
 									 <div class="MM">
-									   <input type="password" class="form-control" id="inputPassword3" placeholder="MM">
+									   <input type="text" class="form-control" id="inputPassword3" placeholder="MM">
 									 </div>
 									 <div class="YY">
-									   <input type="password" class="form-control" id="inputPassword3" placeholder="YYYY">
+									   <input type="text" class="form-control" id="inputPassword3" placeholder="YYYY">
 									 </div>
 					</div>
-				</form>
-				</div>  
-                <div class="col-xs-12 col-md-4a"><img src="images/or.png" height="30px" width="30px"/></div>	
-                <div class="col-xs-12 col-md-4 ">
-                        <div class="loginwithtext">login with</div>
-						<div class="row"><a href="#"><img src="images/facebook.png" height="27" width="130"/></a></div>
-						<div class="row"><a href="#"><img src="images/google.png" height="27" width="130"/></a></div>
-						<div class="row"><a href="#"><img src="images/in.png" height="27" width="130"/></a></div>
-                </div>	
-			  </div>
-
-                <div class="termsconditions">
+					<div class="termsconditions">
                    <div class="checkbox">
                     <label>
                       <input type="checkbox"> <i>I Agree to terms and Conditions</i>
@@ -146,6 +135,21 @@
                 <div class="agreebutton">
                  <button type="submit" class="btn btn-default">NEXT</button>
                 </div><br>
+				</form>
+				<hr class="hor-line">
+				</div>
+					
+				
+                <div class="col-xs-12 col-md-4a"><img src="images/or.png" height="30px" width="30px"/></div>	
+                <div class="col-xs-12 col-md-4 ">
+                        <div class="loginwithtext">login with</div>
+						<div class="row"><a href="#"><img src="images/facebook.png" height="27" width="130"/></a></div>
+						<div class="row"><a href="#"><img src="images/google.png" height="27" width="130"/></a></div>
+						<div class="row"><a href="#"><img src="images/in.png" height="27" width="130"/></a></div>
+                </div>	
+			  </div><br>
+
+                
 
 
 
@@ -162,7 +166,7 @@
 
     <div id="footer">
       <div class="container">
-        <p class="text-muted">&copy; 4th Ambit Technologies 2014 About Privacy Terms Report an Issue Contact Us Help Share this</p>
+        <p class="text-muted">About Privacy Terms Report an Issue Contact Us Help Share this <br>&copy; 4th Ambit Technologies 2014</p>
       </div>
     </div>
 
@@ -179,7 +183,43 @@
 
 	<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+	function change_social_pos(){
+	window_width=$(window).width();
+	if(window_width<991){
+	hor_width=$(".hor-line").width();
+	social_margin_left=(hor_width/2)-30;
+	or_margin_left=(hor_width/2)-5;
+	
+	$(".col-md-4").css('margin-left',social_margin_left);
+	$(".col-md-4a").css('margin-left',or_margin_left);
+	}else{
+	var social_margin_left=24;
+	var or_margin_left=-27;
+	$(".col-md-4").css('margin-left',social_margin_left);
+	$(".col-md-4a").css('margin-left',or_margin_left);
+	}
+	
+	}
 
+	var zoom=$(window).width();
+	change_social_pos();
+
+
+	$(window).resize(function() {
+		var zoomNew = $( window ).width();
+
+		if (zoom != zoomNew) {
+			
+			change_social_pos();
+		}
+	});
+		
+	
+
+	});
+	</script>
     <!-- Placed at the end of the document so the pages load faster -->
 	
   </body>
