@@ -103,6 +103,11 @@ width:100%;
 
 
 }	
+.padlft9 { padding-left: 9px; }
+.certifidCol { color: #f37547 !important; }
+.fBold { font-weight: bold; }
+.f20{ font-size: 20px !important;}
+.tbl-cell { display: table-cell; }
 
 /* */
 
@@ -156,7 +161,10 @@ width:100%;
 
 
 }
-
-
+.padlft9 { padding-left: 9px; }
+.certifidCol { color: #f37547 !important; }
+.fBold { font-weight: bold; }
+.f20{ font-size: 20px !important;}
+.tbl-cell { display: table-cell; }
 
 }
