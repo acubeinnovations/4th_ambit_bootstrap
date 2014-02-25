@@ -69,6 +69,13 @@ body > .container {
   background-color:#FFF;
   width:80%;
 }
+
+body > .trans {
+  padding: 10px 15px 0;
+  background-color:#efecea;
+  width:80%;
+}
+
 body > .containertransparent {
   padding: 60px 15px 0;
   width:80%;
@@ -98,7 +105,7 @@ padding-left:0px;
 	
 hr { 
  
-border-bottom: 2px dotted #000; 
+border-bottom: 1px dotted #ccc; 
 width:100%;
 
 
@@ -167,4 +174,93 @@ width:100%;
 .f20{ font-size: 20px !important;}
 .tbl-cell { display: table-cell; }
 
+
+
+
+}
+
+
+.col-md-3 {
+width: 24%;
+background-color:#FFF;
+padding: 10px 10px 10px 10px;
+}
+.col-md-9 {
+background-color:#FFF;
+padding: 10px 5px 5px 0px;
+}
+
+.col-md-offset-1 {
+margin-left: 4.333333333333332%;
+}
+.col-md-8 {
+width: 66.66666666666666%;
+background-color:#FFF;
+padding: 10px 10px 10px 15px;
+}
+.col-md-4 {
+width: 31.91%;
+background-color:#FFF;
+padding: 10px 10px 10px 10px;
+margin-left:14px;
+}
+body {
+color: #000;
+font-family: 'Open Sans', sans-serif;
+font-size: 13px;
+direction: ltr;
+}
+.largefont { 
+  color: #a09b9b; 
+  font-family: "Trebuchet MS", Helvetica, sans-serif !important;
+  font-size: 14pt; 
+  font-weight: 300;
+  text-align: right;
+  padding-right: 10px;
+  font-style:normal;
+}
+.buttongreenfont{
+ color:#4fbe94;
+ font-family: "Trebuchet MS", Helvetica, sans-serif !important;
+ font-size: 8pt; 
+}
+.greenfont{
+ color:#4fbe94;
+ font-family: "Trebuchet MS", Helvetica, sans-serif !important;
+ font-size: 10pt; 
+}
+.blackfont{
+ color:#000;
+ font-family: "Trebuchet MS", Helvetica, sans-serif !important;
+ font-size: 9pt; 
+}
+.greyfont{
+ color:#666;
+ font-family: "Trebuchet MS", Helvetica, sans-serif !important;
+ font-size: 8pt; 
+ padding-top:3px;
+}
+.redfont{
+ color:#F00;
+ font-family: "Trebuchet MS", Helvetica, sans-serif !important;
+ font-size: 8pt; 
+}
+span .myalert
+{
+	color:#F00 !important;
+	font-family: "Trebuchet MS", Helvetica, sans-serif !important;
+	font-size: 8pt; 
+}
+.hyperlinkfont{
+ color:#4fbe94;
+ font-family: "Trebuchet MS", Helvetica, sans-serif !important;
+ font-size: 8pt; 
+}
+.white, .white a {
+  color: #4fbe94;
+}
+.blackfontnormal{
+ color:#666;
+font-family: 'Open Sans', sans-serif;
+ font-size: 9pt; 
 }
