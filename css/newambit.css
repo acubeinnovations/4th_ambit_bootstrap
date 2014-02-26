@@ -15,32 +15,19 @@ body{
 .navbar {
 	min-height:80px !important;
 }
-
-
-
 .navbar-right{
 	margin-top:20px !important;
 }
-
 .navbar-default .navbar-right > li > a{
 	color: green;
 }
-
 .navbar {
 background-color:#fff;
 }
-
-
-
-
 .form-container{
 background-color:#fff;
 }
-
-
-
-/* Sticky footer styles
--------------------------------------------------- */
+/* Sticky footer styles */
 html {
   position: relative;
   min-height: 100%;
@@ -184,8 +171,14 @@ width:100%;
 
 
 }
+.form-container {
+background-color: #fff;
+}
 
-
+.col-md-1 {
+width: 8.333333333333332%;
+padding-top: 15px;
+}
 .col-md-3 {
 width: 24%;
 background-color:#FFF;
@@ -250,12 +243,21 @@ direction: ltr;
 .blackfont{
  color:#000;
  font-family: "Trebuchet MS", Helvetica, sans-serif !important;
- font-size: 9pt; 
+ font-size: 13px;
+direction: ltr; 
 }
+
 .blackfontbig{
  color:#000;
  font-family: "Trebuchet MS", Helvetica, sans-serif !important;
  font-size: 14pt; 
+ font-weight:lighter;
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Open Sans'), local('OpenSans'), url('http://themes.googleusercontent.com/static/fonts/opensans/v5/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff') format('woff');
 }
 .greyfont{
  color:#666;
