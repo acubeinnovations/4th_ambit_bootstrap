@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	<title>
+		CakePHP: the rapid development php framework:		Errors	</title>
+	<link href="/4thambit_v4/favicon.ico" type="image/x-icon" rel="icon" /><link href="/4thambit_v4/favicon.ico" type="image/x-icon" rel="shortcut icon" /><link rel="stylesheet" type="text/css" href="/4thambit_v4/css/cake.generic.css" /></head>
+<body>
+	<div id="container">
+		<div id="header">
+			<h1><a href="http://cakephp.org">CakePHP: the rapid development php framework</a></h1>
+		</div>
+		<div id="content">
+
+			
+			<h2>Missing Method in DznController</h2>
+<p class="error">
+	<strong>Error: </strong>
+	The action <em>4thambit_v4</em> is not defined in controller <em>DznController</em></p>
+<p class="error">
+	<strong>Error: </strong>
+	Create <em>DznController::</em><em>4thambit_v4()</em> in file: app/controllers/dzn_controller.php.</p>
+<pre>
+&lt;?php
+class DznController extends AppController {
+
+	var $name = 'Dzn';
+
+<strong>
+	function 4thambit_v4() {
+
+	}
+</strong>
+}
+?&gt;
+</pre>
+<p class="notice">
+	<strong>Notice: </strong>
+	If you want to customize this error message, create app/views/errors/missing_action.ctp</p>
+
+		</div>
+		<div id="footer">
+			<a href="http://www.cakephp.org/" target="_blank"><img src="/4thambit_v4/img/cake.power.gif" alt="CakePHP: the rapid development php framework" border="0" /></a>		</div>
+	</div>
+	<table class="cake-sql-log" id="cakeSqlLog_1393393135530d7def8d8bf9_88944045" summary="Cake SQL Log" cellspacing="5" cellpadding="2" border = "1"><caption>(default) 4 queries took 16 ms</caption>	<thead>
+		<tr><th>Nr</th><th>Query</th><th>Error</th><th>Affected</th><th>Num. rows</th><th>Took (ms)</th></tr>
+	</thead>
+	<tbody>
+	<tr><td>1</td><td>SHOW FULL COLUMNS FROM `links`</td><td></td><td style = "text-align: right">20</td><td style = "text-align: right">20</td><td style = "text-align: right">3</td></tr>
+<tr><td>2</td><td>SELECT CHARACTER_SET_NAME FROM INFORMATION_SCHEMA.COLLATIONS WHERE COLLATION_NAME= &#039;latin1_swedish_ci&#039;;</td><td></td><td style = "text-align: right">1</td><td style = "text-align: right">1</td><td style = "text-align: right">2</td></tr>
+<tr><td>3</td><td>SHOW FULL COLUMNS FROM `admin`</td><td></td><td style = "text-align: right">18</td><td style = "text-align: right">18</td><td style = "text-align: right">7</td></tr>
+<tr><td>4</td><td>SHOW FULL COLUMNS FROM `user_login`</td><td></td><td style = "text-align: right">33</td><td style = "text-align: right">33</td><td style = "text-align: right">4</td></tr>
+	</tbody></table>
+	</body>
+</html>
