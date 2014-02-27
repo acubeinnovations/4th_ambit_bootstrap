@@ -97,6 +97,16 @@ background-color:#FFF;
 .white, .white a {
   color: #4fbe94;
 }
+.timeline:before {
+       content: "";
+       position: absolute;
+       top: 0px;
+       bottom: 0px;
+       width: 4px !important;
+       background: none repeat scroll 0% 0% rgb(226, 226, 226) !important;
+       left: -19% !important;
+       margin-left: -11px !important;
+}
 
 @media (min-width: 768px) and (max-width: 990px) {
 .blackfontbig{
