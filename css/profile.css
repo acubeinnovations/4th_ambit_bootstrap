@@ -178,16 +178,24 @@ margin-top:10%;
 border-bottom: 1px dotted #000; 
 }
 .lineborder{
+border-bottom: 0px dotted #000; 
+}
+.paddingbottomsmall{
 border-bottom: 1px dotted #000; 
+padding-bottom:8px;
 }
 .profile_head_info {
 height: 0px;
 }
+.col-md-1editbutton{
+margin-top: -39px;
+margin-left: 37%;
+}
 }
 @media (min-width: 320px) and (max-width: 768px) {
-.col-md-3{
-margin-right:0%;
-margin-top:10%;
+.col-md-3responsive{
+margin-right:-30%;
+margin-top:-30%;
 }
 .hr{
 border-bottom: 1px dotted #000; 
@@ -215,5 +223,27 @@ padding-top: 0%;
 .profile_head_info {
 height: 0px;
 }
+.col-md-1editbutton{
+margin-top: -39px;
+margin-left: 37%;
+}
+.breaker{
+display:none;
+}
 	
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+.col-md-1editbutton{
+margin-top: -39px;
+margin-left: 37%;
+}
+.lineborder{
+border-bottom: 1px dotted #000; 
+}
+}
+@media (min-width: 360px) and (max-width: 640px) {
+.col-md-1editbutton{
+margin-top: -39px;
+margin-left: 70%;
+}
 }
