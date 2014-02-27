@@ -113,8 +113,8 @@ margin-right: -15px;
 line-height: 2.3;
 }
 .btn{
-	background-color:#0C6;
-	color:#FFF;
+	/*background-color:#0C6;*/
+	color:#0C6;
 	}
 .modal-body {
 	position: relative;
@@ -615,8 +615,8 @@ margin-top: 110px;
 	margin-top:-40px;
 }
 .btn{
-	background-color:#0C6;
-	color:#FFF;
+	/*background-color:#0C6;*/
+	color:#0C6;
 	}
 .fontstyle1{
 	font-size:14px;
