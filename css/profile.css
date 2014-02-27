@@ -1,3 +1,6 @@
+body{
+	background:#F0F0F0;
+}
 .yellow{
 background:yellow;
 height:200px;
@@ -22,6 +25,7 @@ border-bottom:1px dashed black !important;*/
 height:50px;
 }
 .badge_img{
+	padding-bottom:10px;
 }
 .jobs{
 
@@ -107,6 +111,17 @@ background-color:#FFF;
        left: -19% !important;
        margin-left: -11px !important;
 }
+.col-lg-3 {
+width: 23%;
+background-color: #FFF;
+margin-left: 12px;
+}
+.padlft9 { padding-left: 9px; }
+.certifidCol { color: #f37547 !important; }
+.fBold { font-weight: bold; }
+.f20{ font-size: 20px !important;}
+.tbl-cell { display: table-cell; }
+
 
 @media (min-width: 768px) and (max-width: 990px) {
 .blackfontbig{
@@ -125,12 +140,15 @@ background-color:#FFF;
 .paddingtop{
 
 }
+.profile_head_info {
+height: 0px;
+}
 }
 @media (min-width: 328px) and (max-width: 768px) {
 .blackfontbig{
  color:#000;
  font-family: "Trebuchet MS", Helvetica, sans-serif !important;
- font-size: 10pt; 
+ font-size: 8pt; 
  font-weight:lighter;
 }
 .hugefont { 
@@ -143,4 +161,59 @@ background-color:#FFF;
 .paddingtop{
 
 }
+.col-lg-3 {
+width: 100%;
+background-color: #FFF;
+margin-left: 0px;
+}
+.col-lg-12background{
+padding-left:0px !important;
+padding-right:0px !important;
+}
+.col-md-3{
+margin-right:0%;
+margin-top:10%;
+}
+.hr{
+border-bottom: 1px dotted #000; 
+}
+.lineborder{
+border-bottom: 1px dotted #000; 
+}
+.profile_head_info {
+height: 0px;
+}
+}
+@media (min-width: 320px) and (max-width: 768px) {
+.col-md-3{
+margin-right:0%;
+margin-top:10%;
+}
+.hr{
+border-bottom: 1px dotted #000; 
+}
+.lineborder{
+border-bottom: 1px dotted #000; 
+}	
+.blackfontbig{
+ color:#000;
+ font-family: "Trebuchet MS", Helvetica, sans-serif !important;
+ font-size: 8pt; 
+ font-weight:lighter;
+}
+.hugefont { 
+  color: #000; 
+  font-family: "Trebuchet MS", Helvetica, sans-serif !important;
+  font-size: 12pt; 
+  font-weight: 100;
+  display:block;
+}
+.my_circuits {
+padding-left: 0%;
+padding-top: 0%;
+}
+.profile_head_info {
+height: 0px;
+}
+	
 }
