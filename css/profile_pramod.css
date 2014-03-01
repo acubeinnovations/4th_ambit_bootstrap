@@ -1,0 +1,123 @@
+.yellow{
+background:yellow;
+height:200px;
+}
+.green{
+background:green;
+height:200px;
+}
+
+.profile_photo{
+padding:10px;
+}
+.profile_head_info{
+}
+.profile_head_name{
+border-bottom:1px dotted black !important;
+
+}
+.profile_head_desc{
+padding-top:5px;
+}
+
+.badge_and_job_container{
+border-top:1px dotted black !important;
+}
+
+.badge_desc{
+height:50px;
+padding:10px;
+}
+.badge_img{
+height:100px;
+padding:20px;
+text-align:center;
+border-top:1px dotted black !important;
+}
+.jobs{
+height:50px;
+padding:20px;
+}
+.certified_badge{
+height:100px;
+padding:20px;
+border-top:1px dotted black !important;
+}
+
+.my_circuits{
+padding:60px;
+height:150px;
+text-align:center;
+border-left:1px dotted black !important;
+}
+.jobs_certified_badge_container{
+border-left:1px dotted black !important;
+
+}
+
+
+
+
+
+/*---------------------------------------------------------------------------------*/
+.sub_heads{
+margin-top:23px;
+margin-bottom:25px;
+color:#f37547;
+font-size:22px;
+font-weight:bold;
+}
+
+.about_me_desc{
+padding:25px ;
+
+}
+
+.content_edit_link{
+color:#4fbe94;
+margin-left:25px;
+}
+.content_edit_link_right{
+float:right;
+color:#4fbe94;
+}
+
+
+.readmore{
+float:right;
+color:#4fbe94;
+margin-right:30px;
+}
+
+.professional_experience{
+margin-left:-30px;
+}
+
+.endorsement_container{
+margin-top: 0px !important;
+}
+
+.endorsement_head{
+
+}
+
+.professional_experience_container{
+background:#fff;
+margin-left:-30px;
+margin-right:-20px;
+}
+
+
+.cert_xs{
+    display:none;
+}
+
+@media (max-width: 767px) {
+    .cert_not_xs{
+    display:none;
+    }
+    .cert_xs{
+        display:block;
+    }
+}
+

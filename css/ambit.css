@@ -47,7 +47,7 @@ body {
 /* Not required for template or sticky footer method. */
 
 body > .container {
-  padding: 60px 15px 0;
+  padding: 0px 15px 0;
 }
 .container .text-muted {
   margin: 20px 0;
@@ -97,13 +97,7 @@ color:#666;
 	margin-top:12px;
 }
 
-.col-md-4 {
-width: 80%;
-margin-left: 28%;
-margin-top: 7px;
-
-
-}	
+	
 .row {
 margin-left: -15px;
 margin-right: -15px;
@@ -208,13 +202,7 @@ width: 2%;
 margin-top: -37px !important;
 
 }
-.col-md-4 {
-	width: 30%;
-	
-	margin-top: 43px !important;
 
-
-}
 .agreebutton{
 	margin-left:540px !important;
 	margin-top:-40px !important;
@@ -269,13 +257,7 @@ width: 2%;
 margin-top: -37px !important;
 
 }
-.col-md-4 {
-	width: 30%;
-	
-	margin-top: 44px !important;
 
-
-}
 .agreebutton{
 	margin-left:517px !important;
 	margin-top:-40px !important;
@@ -335,12 +317,7 @@ width: 2%;
 margin-top: -37px !important;
 
 }
-.col-md-4 {
-	width: 30%;
-	margin-top: 44px !important;
 
-
-}
 .agreebutton{
 	margin-left:398px !important;
 	margin-top:-40px !important;
@@ -392,13 +369,7 @@ width: 2%;
 margin-top: -37px !important;
 
 }
-.col-md-4 {
-	width: 30%;
-	
-	margin-top: 44px !important;
 
-
-}
 .agreebutton{
 	margin-left:308px !important;
 	margin-top:-40px !important;
@@ -450,13 +421,7 @@ width: 2%;
 margin-top: -37px !important;
 
 }
-.col-md-4 {
-	width: 30%;
-	
-	margin-top: 44px !important;
 
-
-}
 .agreebutton{
 	margin-left:228px !important;
 	margin-top:-40px !important;
@@ -576,13 +541,7 @@ margin-top: 110px;
 
 }
 
-.col-md-4 {
-	width: 30%;
-	margin-left: 24px;
-	margin-top: 43px;
-
-
-}	
+	
 
 .DD {
 	width: 50px;
@@ -725,6 +684,7 @@ font-size:20px;
 color:grey;
 text-align:right;
 padding-right:0px;
+height:115px !important;
 
 }
 .timelineicon{
@@ -748,6 +708,14 @@ text-align:center;
 .timelinebuttoncontainer{
 text-align:center;
 }
+.row-border-bottom{
+border-bottom:1px dotted grey;
+margin-bottom:5px;
+}
+.nopadding-right{
+padding-right:0px;
+}
+
 @media (max-width: 767px) {
 	.certificate_lg{
 		display:none !important;
@@ -766,6 +734,7 @@ text-align:center;
 .year{
 text-align:left;
 padding-left:30px;
+height:auto !important;
 }
 .newtimeline:before {
 width:0px !important;
@@ -773,14 +742,7 @@ width:0px !important;
 .timelineicon{
 right:0px;
 }
-.timeline-xs-edit{
-display:block;
-float:right;
-}
-.timeline-sm-edit
-{
-display:none;
-}
+
 .timelinebuttoncontainer{
 text-align:left;
 }
@@ -790,4 +752,29 @@ margin-bottom:10px;
 }
 
 
+}
+
+
+@media (max-width: 360px) {
+.timeline-xs-edit{
+display:block;
+float:right;
+color:green;
+}
+.timeline-sm-edit
+{
+display:none;
+}
+.row-border-bottom{
+border-bottom:0px dotted grey;
+
+}
+
+}
+
+@media (max-width: 991px) {
+.nopadding-sm{
+ padding-right:0px;
+     padding-left:0px;
+}
 }
